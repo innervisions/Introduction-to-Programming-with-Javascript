@@ -1,0 +1,6 @@
+function sumOfSquares(array) {
+  return array.reduce((acc, value) => value * value + acc, 0);
+}
+
+let array = [3, 5, 7];
+console.log(sumOfSquares(array)); // => 83
